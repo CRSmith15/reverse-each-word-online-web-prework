@@ -6,5 +6,6 @@ def reverse_each_word(x)
         reversed << split_string[i]
         i-=1
       end
-  reversed.map(&:reverse!)
+  reversed.each(&:reverse!)
+  reversed
 end
