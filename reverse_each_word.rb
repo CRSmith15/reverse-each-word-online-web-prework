@@ -8,7 +8,7 @@ def reverse_each_word(x)
       end
       new_string = " "
       reversed.each do
-        new_string.reversed! << reversed.pop
+        new_string.reverse! << reversed.pop
       end
       new_string
 
