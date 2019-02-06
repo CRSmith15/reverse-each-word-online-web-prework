@@ -7,7 +7,7 @@ def reverse_each_word(x)
         i-=1
       end
     new_string = ""
-    reversed.each do
+    reversed.each do |x|
       new_string << reversed.shift
     end
     new_string
