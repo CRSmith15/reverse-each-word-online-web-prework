@@ -10,4 +10,5 @@ def reverse_each_word(x)
     reversed.each do
       new_string << reversed.shift
     end
+    new_string
 end
