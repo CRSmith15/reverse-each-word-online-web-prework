@@ -6,7 +6,7 @@ def reverse_each_word(x)
         reversed << split_string[i]
         i-=1
       end
-  reversed.each(&:reverse!)
+  reversed.collect(&:reverse!)
   (reversed.reverse!).join(" ")
 
 end
