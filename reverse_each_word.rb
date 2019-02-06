@@ -8,5 +8,5 @@ def reverse_each_word(x)
       end
   reversed.each(&:reverse!)
   (reversed.reverse!).join(" ")
-  
+
 end
