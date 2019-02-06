@@ -6,5 +6,8 @@ def reverse_each_word(x)
         reversed << split_string[i]
         i-=1
       end
-    reversed
+    new_string = ""
+    reversed.each do
+      new_string << reversed.shift
+    end
 end
