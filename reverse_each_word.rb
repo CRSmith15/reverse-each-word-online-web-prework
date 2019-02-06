@@ -7,5 +7,5 @@ def reverse_each_word(x)
         i-=1
       end
   reversed.each(&:reverse!)
-  reversed
+  reversed.reverse
 end
